@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Novela by Haris</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Novela by Haris</h1>
+    <div>
+      <a href="index.html" class="mx-2 hover:text-blue-500">Home</a>
+      <a href="novels.html" class="mx-2 hover:text-blue-500">Novels</a>
+      <a href="about.html" class="mx-2 hover:text-blue-500">About</a>
+      <a href="contact.html" class="mx-2 text-blue-600 font-semibold">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-16 px-4 max-w-3xl mx-auto">
+    <h2 class="text-4xl font-bold text-center mb-8">Get in Touch</h2>
+    <p class="text-center text-gray-600 mb-10">Have a question, feedback, or just want to say hello? Fill out the form below — I’d love to hear from you!Name</p>
+
+    <form action="https://formsubmit.co/harisrahat95@gmail.com" method="POST" class="bg-white shadow-lg rounded-lg p-8">
+      <!-- Replace YOUR_EMAIL_HERE with your real email -->
+      <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <div class="mb-4">
+        <label class="block text-left text-gray-700 font-semibold mb-2">Your Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required class="border w-full p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <div class="mb-4">
+        <label class="block text-left text-gray-700 font-semibold mb-2">Your Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required class="border w-full p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <div class="mb-6">
+        <label class="block text-left text-gray-700 font-semibold mb-2">Message</label>
+        <textarea name="message" rows="5" placeholder="Write your message here..." required class="border w-full p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+      </div>
+
+      <button type="submit" class="w-full bg-blue-500 text-white py-3 rounded font-semibold hover:bg-blue-600 transition">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center shadow-inner">
+    <p class="text-gray-600">&copy; 2025 Novela by Haris. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

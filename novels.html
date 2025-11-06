@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Novels</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">My Novels</h1>
+    <div>
+      <a href="index.html" class="mx-2 hover:text-blue-500">Home</a>
+      <a href="novels.html" class="mx-2 text-blue-500 font-semibold border-b-2 border-blue-500">Novels</a>
+      <a href="about.html" class="mx-2 hover:text-blue-500">About</a>
+      <a href="contact.html" class="mx-2 hover:text-blue-500">Contact</a>
+    </div>
+  </nav>
+
+  <section class="py-16 px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">All Novels</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Repeat Novel Card for all novels -->
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+        <img src="assets/dosra hissa gaon ki zindagi.jpeg" alt="dosra hissa" class="w-full h-64 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-2">Gaon Ki Zindagi (Part 2)</h3>
+          <p class="text-gray-600 mb-4">جہاں خاموشی بولتی ہے اور دلوں کے راز الفاظ بن جاتے ہیں۔</p>
+          <div class="flex justify-between items-center">
+          <a href="assets/novels/dosra hissa gaon ki zindagi.pdf" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Read</a>
+          <a href="assets/novels/dosra hissa gaon ki zindagi.pdf" download class="text-blue-500 hover:underline">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition">
+        <img src="assets/qayat ka munzar.png" alt="qayat ka munzar" class="w-full h-64 object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-2">Qayamat Ka Munzar</h3>
+          <p class="text-gray-600 mb-4">یہ کہانی نہیں، ایک ایسا منظر ہے جو روح کو ہلا کر رکھ دیتا ہے۔</p>
+          <div class="flex justify-between items-center">
+          <a href="assets/novels/qayamat kheez lahar.pdf" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Read</a>
+          <a href="assets/novels/qayamat kheez lahar.pdf" download class="text-blue-500 hover:underline">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more novels as needed -->
+
+    </div>
+  </section>
+
+  <footer class="bg-white py-6 text-center shadow-inner">
+    <p class="text-gray-600">&copy; 2025 Novel_author Haris. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
